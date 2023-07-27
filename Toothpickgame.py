@@ -17,10 +17,10 @@ while True:
  if num_left<=0:
     print(f"{current_player} Wins the Game")
     break
- if current_player==player_1_name:
-   current_player = player_2_name
-else:
-  current_player=player_1_name
+ if current_player == player_1_name:
+    current_player = player_2_name
+ else:
+   current_player=player_1_name
 
  
 print("GAME OVER")
